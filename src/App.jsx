@@ -170,7 +170,7 @@ export default function App() {
           <div className="nav__logo" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
             <img src="/LOGO.jpeg" alt="Auditrue" className="logo-img"
               onError={(e) => { e.target.style.display = "none"; }} />
-            <span className="logo-text"><strong>AUDIT</strong><em>RUE</em></span>
+            <span className="logo-text"><strong>AUDITRUE</strong><em></em></span>
           </div>
           <ul className="nav__links">
             {NAV_LINKS.map((l) => (
@@ -448,8 +448,8 @@ export default function App() {
               <h2 className="section-title">Siap untuk Audit<br /><span className="gold">yang Bermakna?</span></h2>
               <p>Hubungi tim AUDITRUE untuk konsultasi awal gratis. Kami siap membantu Anda meningkatkan transparansi dan tata kelola perusahaan.</p>
               <div className="contact-list">
-                <a href="mailto:AUDITRUE@gmail.com" className="contact-item">
-                  <span className="ci">✉</span> AUDITRUE@gmail.com
+                <a href="mailto:auditrue6@gmail.com" className="contact-item">
+                  <span className="ci">✉</span> auditrue6@gmail.com
                 </a>
                 <a href="https://wa.me/6281342745230" className="contact-item">
                   <span className="ci">📱</span> 081342745230 (WhatsApp)
@@ -507,11 +507,11 @@ export default function App() {
               <div className="nav__logo" style={{ cursor: "default" }}>
                 <img src="/LOGO.jpeg" alt="Auditrue" className="logo-img"
                   onError={(e) => { e.target.style.display = "none"; }} />
-                <span className="logo-text"><strong>AUDIT</strong><em>RUE</em></span>
+                <span className="logo-text"><strong>AUDITRUE</strong><em></em></span>
               </div>
               <p>"Perusahaan audit yang menjunjung tinggi kebenaran dan kejujuran dalam setiap pemeriksaan."</p>
               <div className="footer-socials">
-                <a href="mailto:AUDITRUE@gmail.com" title="Email">✉</a>
+                <a href="mailto:auditrue6@gmail.com" title="Email">✉</a>
                 <a href="https://wa.me/6281342745230" title="WhatsApp">📱</a>
                 <a href="https://maps.app.goo.gl/DnKwQgZLwDzq64Zr7" target="_blank" rel="noopener noreferrer" title="Maps">🗺️</a>
               </div>
@@ -536,7 +536,7 @@ export default function App() {
               <div>
                 <h4>Kontak</h4>
                 <ul>
-                  <li><a href="mailto:AUDITRUE@gmail.com">AUDITRUE@gmail.com</a></li>
+                  <li><a href="mailto:auditrue6@gmail.com">auditrue6@gmail.com</a></li>
                   <li><a href="https://wa.me/6281342745230">081342745230</a></li>
                   <li><span>08.00 – 17.00 WIB</span></li>
                 </ul>
@@ -545,7 +545,7 @@ export default function App() {
           </div>
           <div className="footer-bottom">
             <span>© 2024 AUDITRUE. Seluruh hak cipta dilindungi.</span>
-            <span>Jl. Adiyaksa Baru — AUDITRUE@gmail.com</span>
+            <span>Jl. Adiyaksa Baru — auditrue6@gmail.com</span>
           </div>
         </div>
       </footer>
